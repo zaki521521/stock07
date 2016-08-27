@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sampleSuite">
+  <test name="Test">
+  <parameter name="au" value="5211"/>
+   <parameter name="se" value="gmail"/>
+
+    <classes>
+    
+      <class name="com.stock.master.datax"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- sampleSuite -->

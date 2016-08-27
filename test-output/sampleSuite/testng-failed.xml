@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sampleSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.stock.master.datap">
+        <methods>
+          <include name="Log"/>
+          <include name="Launch"/>
+          <include name="dp" invocation-numbers="1"/>
+          <include name="exit"/>
+          <include name="Logo"/>
+        </methods>
+      </class> <!-- com.stock.master.datap -->
+      <class name="com.stock.master.examplNG">
+        <methods>
+          <include name="home"/>
+          <include name="login"/>
+          <include name="back"/>
+        </methods>
+      </class> <!-- com.stock.master.examplNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [sampleSuite] -->
