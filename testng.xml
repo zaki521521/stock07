@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="sampleSuite">
-  <test name="Test">
-  <parameter name="au" value="5211"/>
-   <parameter name="se" value="gmail"/>
-
+<suite name="Suite" >
+  <test name="On Firefox">
+  <parameter name="Browser" value="firefox"></parameter>
     <classes>
-    
-      <class name="com.stock.master.datax"/>
+      <class name="com.stock.master.grid"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- sampleSuite -->
+  </test> <!-- Gexe -->
+  
+</suite> <!-- Suite -->
